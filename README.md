@@ -17,6 +17,8 @@ ShopVerse is a Spring Boot-based microservices architecture for an e-commerce pl
 
 ---
 
+
+
 ## 🏗️ Tech Stack
 
 - Java 17, Spring Boot
@@ -36,3 +38,9 @@ cd ShopVerse
 
 # Build and start all containers
 docker-compose up --build
+
+## Developed By
+
+👨‍💻 Anirudha Magdum  
+🚀 Passionate about building scalable backend systems with Spring Boot and Microservices.
+
