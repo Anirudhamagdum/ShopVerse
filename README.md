@@ -55,33 +55,33 @@ docker-compose up --build
 <summary><strong>Click to expand full list</strong></summary>
 
 ```http
-GET    /api/product/getallproducts?userName=Anirudha
-POST   /api/product/addproduct
-GET    /api/product/searchproduct?prefix=iP
-GET    /api/product/getdetails?productName=iPhone 16&sellerName=AppleStore
-
-POST   /api/cart/addItem?userName=Raju&productName=...&quantity=2
-GET    /api/cart/getcart?userName=Raju
-PUT    /api/cart/updatequantity?userName=Raju&...&newQuantity=6
-DELETE /api/cart/deleteitem?userName=Raju&...
-GET    /api/cart/gettotalprice?userName=Raju
-
-POST   /api/order/placeorder
-POST   /api/order/placeorderfromcart?userName=...&productName=...
-GET    /api/account/checkuser?userName=Anirudha
-GET    /api/order/getorderbystatus?userName=Raju&orderStatus=PLACED
-PUT    /api/order/cancelorder?orderId=...&userName=...
-POST   /api/order/markasdelivered?orderId=...&userName=...
-POST   /api/order/addfeedback
-PUT    /api/order/returnorder?orderId=...&userName=...
-
-GET    /api/account/checkuser?userName=Anirudha
-POST   /api/account/login?name=...&password=...
+GET    /api/account/checkuser
+POST   /api/account/login
 POST   /api/account/register
 
+GET    /api/product/getallproducts
+POST   /api/product/addproduct
+GET    /api/product/searchproduct
+GET    /api/product/getdetails
+
+POST   /api/cart/addItem
+GET    /api/cart/getcart
+PUT    /api/cart/updatequantity
+DELETE /api/cart/deleteitem
+GET    /api/cart/gettotalprice
+
+POST   /api/order/placeorder
+POST   /api/order/placeorderfromcart
+GET    /api/account/checkuser
+GET    /api/order/getorderbystatus
+PUT    /api/order/cancelorder
+POST   /api/order/markasdelivered
+POST   /api/order/addfeedback
+PUT    /api/order/returnorder
+
 POST   /api/wishlist/addtowishlist
-GET    /api/wishlist/getwishlist?userName=Anirudha
-DELETE /api/wishlist/deletefromwishlist?userName=...&wishlistId=...
+GET    /api/wishlist/getwishlist
+DELETE /api/wishlist/deletefromwishlist
 ```
 
 </details>
@@ -92,7 +92,7 @@ DELETE /api/wishlist/deletefromwishlist?userName=...&wishlistId=...
 
 **Anirudha Magdum**  
 Backend Developer & Spring Boot Enthusiast  
-📫 [LinkedIn Profile](https://www.linkedin.com/in/anirudhamagdum)  
+📫 [LinkedIn Profile](https://www.linkedin.com/in/anirudha-magdum-738447229/)  
 🚀 Passionate about building scalable backend systems with Microservices architecture.
 
 ---
